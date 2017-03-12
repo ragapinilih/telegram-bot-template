@@ -54,3 +54,9 @@ config/inits/init.rb
 *.swp
 *.swo
 *.swn
+
+# Rbenv ruby versioning
+.ruby-version
+
+# Dotenv
+.env

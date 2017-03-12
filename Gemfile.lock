@@ -23,6 +23,7 @@ GEM
     concurrent-ruby (1.0.1)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
+    dotenv (2.2.0)
     equalizer (0.0.11)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
@@ -67,6 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   cachy
+  dotenv (~> 2.2)
   mongoid
   mongoid-locker
   rake

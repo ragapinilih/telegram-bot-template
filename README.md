@@ -6,8 +6,8 @@ How to create your own Telegram bot:
 - Clone the project (tip: clone into your project name folder, i.e. `git clone git@github.com:araishikeiwai/telegram-bot-template.git project-name`)
 - Modify the git remote url in case you want to push it to your own repository
 - Run `cd project-name`
-- Run `cp config/inits/init.rb.sample config/inits/init.rb`
-- Edit `config/inits/init.rb` and fill in your bot token and project name
+- Run `cp env.sample .env`
+- Modify .env to suits your needs
 - Modify `Gemfile` to your needs
 - Run `bundle install`
 - Run `bundle exec rake [namespace]:init` (namespace is what you defined in `config/inits/init.rb`)
